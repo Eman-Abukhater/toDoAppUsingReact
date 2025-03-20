@@ -1,16 +1,17 @@
 import React from "react";
 import Todo from "./components/Todo";
-import Inline from "./components/Inline";
-import Outline from "./components/Outline";
+import Header from "./components/Header";
+import "./app.css";
 
 function App() {
   return (
     <div className="App">
-      {/* <Todo /> */}
-      <Inline />
-      <Outline />
+      <Header />
+      <Todo />
+     
     </div>
   );
 }
+
 
 export default App;
