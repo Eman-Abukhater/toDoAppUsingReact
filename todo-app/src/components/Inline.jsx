@@ -1,12 +1,8 @@
-import React from 'react'
-const heading = {
-  fontSize: '72px',
-  color: 'red'
-}
+import '../css/style.css'
 function Inline() {
   return (
     <div>
-      <h1 style={heading}>Inline</h1>
+      <h1 className='header' >Inline</h1>
       <p>This is an inline component.</p>
 
     </div>
