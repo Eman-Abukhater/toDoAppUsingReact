@@ -1,9 +1,11 @@
-.header{
-    background-color: rgb(233, 228, 78);
-    padding: 20px;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-
+.header {
+  background-color: rgb(233, 228, 78);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

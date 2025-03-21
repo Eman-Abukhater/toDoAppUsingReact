@@ -1,9 +1,16 @@
 import React from "react";
-
-function TodoItem({item}) {
+import styles from "./todoitem.module.css";
+function TodoItem({ item }) {
   return (
-    <div>
-      <p>{item}</p>
+    <div className={styles.item}>
+      <div className={styles.itemName}>
+        {item}
+        <span>
+          <button className={styles.deletButton} >x</button>
+        </span>
+      </div>
+
+      <hr className={styles.line} />
     </div>
   );
 }
