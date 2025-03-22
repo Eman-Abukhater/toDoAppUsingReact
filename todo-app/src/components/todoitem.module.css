@@ -1,8 +1,12 @@
 .item{
     width: 500px;
     color: #353535;
-    font-size: large;
+    font-size: 15px;
     margin: 10px auto;
+    padding: 0 10px;
+
+    
+    
 }
 
 .itemName{
@@ -29,5 +33,10 @@
     margin-right: 10px;
     margin-top: -5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+}
+.completed{
+    text-decoration: line-through;
+    font-style: italic;
 
 }
